@@ -1,0 +1,59 @@
+iframe.roko-instabot-widget {
+					  background: rgba(223, 215, 209, 0.2);
+					  background-image: none;
+					  ;
+					}
+					
+					.roko-instabot-widget .head {}
+					
+					.roko-instabot-widget.full-screen .head {
+					  border-bottom-width: 1px;
+					}
+					
+					.roko-instabot-widget .head .head-logo {
+					  background-image: none;
+					  display: none;
+					}
+					
+					.roko-instabot-widget .response {
+					  background-color: rgb(139, 127, 116);
+					  color: White;
+					}
+					
+					.roko-instabot-widget .response .tail {
+					  border-left-color: rgb(139, 127, 116);
+					}
+					
+					.roko-instabot-widget .conversation .message .question {
+					  background-color: Black;
+					  color: rgb(139, 127, 116);
+					}
+					
+					.roko-instabot-widget .conversation .message .question .tail {
+					  border-right-color: Black;
+					}
+					
+					.roko-instabot-widget .conversation .message .avatar {
+					  background-image: url('https://roko-mobi.s3.amazonaws.com/09ee4caf-4d8e-41d7-a203-a98f279a3ccc/a55202e7-77b0-496e-a722-e5f65c67a380');
+					}
+					
+					.roko-instabot-widget .conversation .message .avatar::after {
+					  content: ""
+					}
+					
+					.roko-instabot-widget .multi-select .options .option.selected,
+					.roko-instabot-widget.mobile-view.more .multi-select .options .option.selected,
+					.roko-instabot-widget .multi-select-mobile-options .option.selected {
+					  background-color: rgb(139, 127, 116);
+					  border-color: rgb(139, 127, 116);
+					  box-shadow: 2px 4px 20px 0px rgba(139, 127, 116, 0.6);
+					  color: White;
+					}
+					/*.roko-instabot-widget .conversation .message.type-4 .actions-container .action .card-action .text { 						background-color: Black; 						color: rgb(139, 127, 116); 					}*/
+					
+					.roko-instabot-widget .conversation .message.type-3 .actions-container,
+					.roko-instabot-widget .conversation .message.type-4 .actions-container,
+					.roko-instabot-widget .conversation .message.type-3 .actions-container .action,
+					.roko-instabot-widget .conversation .message.type-4 .actions-container .action .card-action,
+					.roko-instabot-widget .conversation .message.type-4 .actions-container .action .card-box .card-info {}
+					/*.roko-instabot-widget .conversation .message.type-3 .actions-container .action { 
