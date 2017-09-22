@@ -16,17 +16,17 @@ iframe.roko-instabot-widget {
 					}
 					
 					.roko-instabot-widget .response {
-					  background-color: rgb(139, 127, 116);
+					  background-color: #000000;
 					  color: White;
 					}
 					
 					.roko-instabot-widget .response .tail {
-					  border-left-color: rgb(139, 127, 116);
+					  border-left-color: #000000;
 					}
 					
 					.roko-instabot-widget .conversation .message .question {
 					  background-color: Black;
-					  color: rgb(139, 127, 116);
+					  color: #000000;
 					}
 					
 					.roko-instabot-widget .conversation .message .question .tail {
@@ -44,9 +44,9 @@ iframe.roko-instabot-widget {
 					.roko-instabot-widget .multi-select .options .option.selected,
 					.roko-instabot-widget.mobile-view.more .multi-select .options .option.selected,
 					.roko-instabot-widget .multi-select-mobile-options .option.selected {
-					  background-color: rgb(139, 127, 116);
-					  border-color: rgb(139, 127, 116);
-					  box-shadow: 2px 4px 20px 0px rgba(139, 127, 116, 0.6);
+					  background-color: Black;
+					  border-color: Black;
+					  box-shadow: 2px 4px 20px 0px #000000;
 					  color: White;
 					}
 					/*.roko-instabot-widget .conversation .message.type-4 .actions-container .action .card-action .text { 						background-color: Black; 						color: rgb(139, 127, 116); 					}*/
